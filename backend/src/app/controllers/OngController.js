@@ -22,7 +22,7 @@ class OngController {
       uf,
     })
 
-    return res.json(ong_id);
+    return res.json({ ong_id });
   }
 }
 
